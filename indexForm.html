@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styleForm.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form method=" POST">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Your name.."
+        maxlength="25"
+        required
+      /><br /><br />
+
+      <label for="rnumber">Roll Number:</label>
+      <input
+        type="number"
+        name="rnumber"
+        placeholder="Your Roll Number.."
+        id="rnumber"
+        required
+      /><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Your Email id.."
+        id="email"
+        required
+      /><br /><br />
+
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        name="age"
+        placeholder="Your age.."
+        id="age"
+        required
+      /><br /><br />
+
+      <label for="sex">Gender:</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male" class="gap">Male</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+        checked="checked"
+      />
+      <label for="female" class="gap">Female</label>
+
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <label for="society ">Societies opted:</label><br />
+      <input type="checkbox" id="society1" name="society1" value="jazba" />
+      <label for="society1">Jazba-Dramatics and Play Society </label><br />
+
+      <input type="checkbox" id="society2" name="society2" value="tark" />
+      <label for="society2">Tark-The Debating Society </label><br />
+
+      <input type="checkbox" id="society3" name="society3" value="tatva" />
+      <label for="society3">Tatva-The Eco Club</label><br />
+
+      <input type="checkbox" id="society4" name="society4" value="pranama" />
+      <label for="society4">Pranama-The Quiz Society </label><br />
+
+      <input
+        type="checkbox"
+        id="society5"
+        name="society5"
+        value="shivranjini"
+      />
+      <label for="society5">Shivranjini-The Music Society </label><br />
+
+      <input type="checkbox" id="society6" name="society6" value="panache" />
+      <label for="society6">PANACHE-The Fashion Society </label><br />
+
+      <input type="checkbox" id="society7" name="society7" value="firstcut" />
+      <label for="society7">FirstCut-The FilmmakingSociety </label><br />
+
+      <input type="checkbox" id="society8" name="society8" value="dna" />
+      <label for="society8">DNA-Dance Nucleic Acid </label><br />
+
+      <input
+        type="checkbox"
+        id="society9"
+        name="society9"
+        value="brushstrokes"
+      />
+      <label for="society9">Brushstrokes-The Art & Craft Society </label
+      ><br /><br />
+
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="bcomh">B. Com. (H)</option>
+        <option value="bcom">B. Com.</option>
+        <option value="bms">Bachelor of Management Studies (B.M.S.)</option>
+        <option value="bapc">B. A. (H) Political Science</option>
+        <option value="bahindi">B. A. (H) Hindi</option>
+        <option value="baeng">B. A. (H) English</option>
+        <option value="baprog">B. A. Program</option>
+        <option value="stats">B. Sc. (H) Statistics</option>
+        <option value="maths">B. Sc. (H) Mathematics</option>
+        <option value="cs">B. Sc. (H) Computer Science</option>
+        <option value="psycho">B. A. (H) Applied Psychology</option></select
+      ><br /><br />
+
+      <label for="address">Address:</label><br />
+      <textarea
+        rows="4"
+        cols="50"
+        placeholder="Enter text here..."
+        id="address"
+        required
+      ></textarea
+      ><br /><br />
+
+      <label for="upload">Select image to Upload:</label>
+      <input id="upload" type="file" required />
+      <br /><br />
+
+      <input type="submit" value="Submit" name="submit" id="submit" />
+    </form>
+  </body>
+</html>

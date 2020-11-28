@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #00203fff;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Lora", serif;
+  color: #e94b3cff;
+  margin-bottom: 2rem;
+}
+form {
+  background-color: whitesmoke;
+  padding: 3rem 6rem;
+  width: 50rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 5px 0px;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #555;
+  transition: all 0.2s;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(63, 61, 61);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(99, 98, 98);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 18px;
+}
+#society {
+  margin-top: 20px;
+}
+
+.gap {
+  margin-right: 25px;
+}
+
+small {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #e94b3cff;
+  font-weight: bold;
+}
